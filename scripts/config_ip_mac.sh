@@ -39,8 +39,8 @@ if [ -z "$dev" ]; then
   fi
 fi
 
-mac=$(printf "12:55:55:0:1:%x" "$snum")
-ip=$(printf "192.168.19.%s" "$snum")
+mac=$(printf "12:55:55:0:1f:%x" "$snum")
+ip=$(printf "192.168.79.%s" "$snum")
 
 echo "ip = $ip; mac = $mac; dev = $dev"
 
